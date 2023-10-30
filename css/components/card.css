@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-white {
+  background-color: #fff;
+  width: 250px;
+  padding: 8px;
+}
+
+.card-white img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-user {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card-user a {
+  color: #4B94BD;
+}
